@@ -1,0 +1,31 @@
+{
+  "name": "void.js",
+  "version": "0.1.5",
+  "description": "Tiny JS front-end framework",
+  "main": "/build/void.min.js",
+  "scripts": {
+    "dev": "export NODE_ENV=development && webpack",
+    "prod": "export NODE_ENV=production && webpack",
+    "build": "npm run dev && npm run prod"
+  },
+  "author": "Kirill Gavrilyuk kirill.gavrilyuk.work@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirill-gavrilyuk/void.js/issues"
+  },
+  "homepage": "https://github.com/kirill-gavrilyuk/void.js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kirill-gavrilyuk/void.js.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.5.0",
+    "eslint-loader": "^1.5.0",
+    "webpack": "^1.13.2"
+  }
+}
