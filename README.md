@@ -1,6 +1,14 @@
 # void.js
 Extremely small (less then 1 kb gzipped prod build ) JS front end framework.
 
+Here is [demo](https://kirill-gavrilyuk.github.io/void.js-demo/index.html).
+
+
+You can install it from npm:
+```
+npm install void.js
+```
+
 Void.js provides very simple interface of 3 functions:
 ```javascript
 const Void = {
