@@ -2,6 +2,7 @@
 Extremely small (less then 1 kb gzipped prod build ) JS front end framework.
 
 Here is [demo](https://kirill-gavrilyuk.github.io/void.js-demo/index.html).
+Here is [Demo sources](https://github.com/kirill-gavrilyuk/void.js-demo).
 
 
 You can install it from npm:
